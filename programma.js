@@ -33,4 +33,5 @@ let foglio2 = document.getElementById('foglio2');
 let disegno2 = foglio2.getContext('2d');
 
 foglio2.addEventListener('click', (evento) => {
+    disegno2.strokeRecht(evento.offsetX, evento.offsetY ) 
 }) 
